@@ -1,0 +1,66 @@
+                                                                      ASSIGNMENT - 1                                 
+                                   
+                                                      ELASTIC COMPUTE CLOUD ( EC2)
+
+             EC2 is a part of compute services from amazon,where we can spin up virtual servers on the cloud. An EC2 virtual server is known as an instance.
+
+
+               Launching an Instance
+
+            Your AWS account might support both the EC2-Classic and EC2-VPC platforms, depending on when you created your account and which regions you've used. If your account supports EC2-Classic, you can launch an instance into either platform. If your account supports EC2-VPC only, you can launch an instance into a VPC only.
+
+
+Launching  Instance from an AMI
+
+When you launch an instance, you must select a configuration, known as an Amazon Machine Image (AMI). An AMI might contain the software required to act as a web server: for example, Linux, Apache etc.
+
+                                                 for launching an instance there are  11 steps to be followed.they are:
+
+    1) Open the Amazon EC2 console
+
+    2) In the navigation bar at the top of the screen, the current region is displayed. Select the region for the instance.Select the region that meets your needs.
+
+   3) From the Amazon EC2 console dashboard, choose Launch Instance.
+
+   4) On the Choose an Amazon Machine Image (AMI) page, choose an AMI 
+
+                                 (a) Select the type of AMI to use in the left pane.
+                                 (b)Check the Root device type listed for each AMI.   
+                                 (c)Check the Virtualization type listed for each AMI.
+                                 (d)Choose an AMI that meets your needs, and then choose Select.
+
+    5) On the Choose an Instance Type page, select the hardware configuration and size of the instance to launch.To remain eligible for the free tier, choose the t2.micro instance type. 
+
+    6) On the Configure Instance Details page, change the following settings as necessary.
+
+                                 *Number of instances
+                                 *Purchasing option
+                                 *IAM role
+                                 *Shutdown behavior
+                                 *Enable termination protection
+                                 *Monitoring
+                                 *EBS-Optimized instance
+                                 *Tenancy
+                                 *Network interfaces
+                                 *Kernel ID
+                                 *RAM disk ID
+                                 *Placement group
+                                 *User data
+
+    7) On the Add Storage page, you can specify volumes to attach to the instance besides the volumes specified by the AMI.
+
+       Type,Device,Snapshot,Size,Volume Type,IOPS,Delete on Termination,Encrypted.these are some option's available in add storage page.
+
+   8) On the Tag Instance page, specify tags for the instance by providing key and value combinations. 
+
+  9) On the Configure Security Group page, use a security group to define firewall rules for your instance. These rules specify which incoming network traffic is delivered to your instance.
+
+10) On the Review Instance Launch page, check the details of your instance, and make any necessary changes by clicking the appropriate Edit link.
+When you are ready, choose Launch.
+
+11) Select Choose an existing key pair, then select the key pair you created when getting set up.
+
+To launch your instance, select the acknowledgment check box, then choose Launch Instances.
+
+
+these are the steps to launch an instance,after using the instance  we can stop the instance or terminate the instance,otherwise it will cause some expenses.
